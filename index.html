@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>XPath Demo Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>XPath PoC Demo</h1>
+    <p>Small static site for testing XPath / tag changes.</p>
+    <!-- Intentional change: Login button is a DIV (was originally a <span> or <button>) -->
+    <div id="loginBtn" class="btn">Sign In</div>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="login.html">Login Page</a> |
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>This site is intentionally minimal and contains one element with a changed tag to simulate a broken XPath in your tests.</p>
+    </section>
+  </main>
+  <footer>
+    <small>Host on GitHub Pages or any static hosting.</small>
+  </footer>
+</body>
+</html>
